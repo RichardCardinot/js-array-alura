@@ -49,7 +49,7 @@ const pessoa = {         // Objeto pessoa criado com os atributos nome e idade.
 
 // Usando o destructuring em objetos:
 const pessoaComTelefone = {...pessoa, telefone: 22884455};  // Mesclando o objeto pessoa com o atributo telefone, criando assim 
-                                                            // um novo objeto com com os atributos nome, idade e telefone. 
+                                                            // um novo objeto com os atributos nome, idade e telefone. 
 
 console.log(pessoa, pessoaComTelefone);
 
